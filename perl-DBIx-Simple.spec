@@ -1,7 +1,7 @@
 Name:           perl-DBIx-Simple
 Summary:        Easy-to-use OO interface to DBI
 Version:        1.35
-Release:        6.1%{?dist}
+Release:        7%{?dist}
 License:        Public Domain
 Group:          Development/Libraries
 Source0:        http://search.cpan.org/CPAN/authors/id/J/JU/JUERD/DBIx-Simple-%{version}.tar.gz 
@@ -49,6 +49,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.35-7
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 1.35-6.1
 - Rebuild for perl 5.16
 
